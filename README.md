@@ -1,6 +1,6 @@
 # Graph Neural Networks Can (Often) Count Substructures
 
-This repository implements the models and the experiments in the _ICLR 2025_  (Spotlight) paper "Graph Neural Networks Can (Often) Count Substructures". The paper is available [here](https://openreview.net/forum?id=sZQRUrvLn4).
+This repository contains the experiments for the _ICLR 2025_  (Spotlight) paper "Graph Neural Networks Can (Often) Count Substructures". The paper is available [here](https://openreview.net/forum?id=sZQRUrvLn4).
 
 | ![](Quitecolorful.png) |
 |:--| 
@@ -12,7 +12,7 @@ This repository implements the models and the experiments in the _ICLR 2025_  (S
 Message passing graph neural networks (GNNs) are known to have limited expressive power in their ability to distinguish some non-isomorphic graphs.
 Because of this, it is well known that they are unable to detect or count arbitrary graph substructures (i.e., solving the subgraph isomorphism problem), a task that is of great importance for several types of graph-structured data. 
 However, we observe that GNNs are in fact able to count graph patterns quite accurately across several real-world graph datasets.
-Motivated by this observation, we provide an analysis of the subgraph-counting capabilities of GNNs beyond the worst case, deriving several sufficient conditions for GNNs to be able to count subgraphs and, more importantly, to be able to \textit{sample-efficiently learn} to count subgraphs. 
+Motivated by this observation, we provide an analysis of the subgraph-counting capabilities of GNNs beyond the worst case, deriving several sufficient conditions for GNNs to be able to count subgraphs and, more importantly, to be able to _sample-efficiently learn_ to count subgraphs. 
 Moreover, we develop novel dynamic programming algorithms for solving the subgraph isomorphism problem on restricted classes of pattern and target graphs, and show that message-passing GNNs can efficiently simulate these dynamic programs. 
 
 ### Citing our work
